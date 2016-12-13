@@ -1,0 +1,3 @@
+C:\Users\175931\Desktop\1942\1942\_1942Content\obj\x86\Debug\_1942Content.contentprojResolveAssemblyReference.cache
+C:\Users\145309\Desktop\1942\1942\_1942Content\obj\x86\Debug\_1942Content.contentprojResolveAssemblyReference.cache
+F:\1942\1942\_1942Content\obj\x86\Debug\_1942Content.contentprojResolveAssemblyReference.cache

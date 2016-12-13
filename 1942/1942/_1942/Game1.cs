@@ -18,7 +18,37 @@ namespace _1942
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        KeyboardState oldKB;
+        Rectangle player;
+        Rectangle lives;
+        Rectangle pow;
+        Rectangle shield;
+        Rectangle back;
+        List<Rectangle> bullet;
+        int bcd;
+        int score;
+        int liveint;
+        int screenW;
+        int screenH;
+        int playerSpeed;
+        int playerl;
+        int playerw;
+        int bulletsize;
+        Texture2D current;
+        Texture2D playert;
+        Texture2D GO;
+        Texture2D blank;
+        SpriteFont titlef;
+        SpriteFont gui;
+        Texture2D backg;
+        string tittle;
+        string livedis;
+        string scoredis;
+        Vector2 tittleVector = new Vector2(250, 200);
+        Vector2 liveVector = new Vector2(60, 0);
 
+        enum gamestate { start, play, quit };
+        gamestate state;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -34,7 +64,23 @@ namespace _1942
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            screenH = GraphicsDevice.Viewport.Height;
+            screenW = GraphicsDevice.Viewport.Width;
+            oldKB = Keyboard.GetState();
+            playerw = 100;
+            playerl = 50;
+            shield = new Rectangle(0, -40, screenW, 20);
+            player = new Rectangle(screenW / 2 - playerw / 2, screenH - 300, playerw, playerl);
+            pow = new Rectangle(120, 0, 50, 50);
+            lives = new Rectangle(0, 0, 50, 50);
+            back = new Rectangle(0, 0, screenW, screenH);
+            bullet = new List<Rectangle>();
+            liveint = 3;
+            bulletsize = 20;
+            scoredis = score.ToString();
+            livedis = "x" + liveint.ToString();
+            playerSpeed = 5;
+            bcd = 0;
             base.Initialize();
         }
 
@@ -46,7 +92,12 @@ namespace _1942
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            playert = Content.Load<Texture2D>("player");
+            titlef = this.Content.Load<SpriteFont>("title");
+            gui = this.Content.Load<SpriteFont>("GUI");
+            GO = this.Content.Load<Texture2D>("Game EndScreen");
+            blank = this.Content.Load<Texture2D>("White Square");
+            backg = this.Content.Load<Texture2D>("White Square");
             // TODO: use this.Content to load your game content here
         }
 
@@ -67,11 +118,67 @@ namespace _1942
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            KeyboardState kb = Keyboard.GetState();
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || kb.IsKeyDown(Keys.Escape))
                 this.Exit();
-
             // TODO: Add your update logic here
+            switch (state)
+            {
+                case gamestate.start:
+                    tittle = "1942";
+                    if (kb.IsKeyDown(Keys.Space))
+                    {
+                        state = gamestate.play;
+                    }
 
+                    break;
+                case gamestate.play:
+
+                    backg = blank;
+                    tittle = "";
+                    livedis = "x" + liveint.ToString();
+                    scoredis = score.ToString();
+                    if (kb.IsKeyDown(Keys.S))
+                    {
+                        player.Y += playerSpeed;
+                    }
+                    if (kb.IsKeyDown(Keys.W))
+                    {
+                        player.Y -= playerSpeed / 2;
+                    }
+                    if (kb.IsKeyDown(Keys.A))
+                    {
+                        player.X -= playerSpeed;
+                    }
+                    if (kb.IsKeyDown(Keys.D))
+                    {
+                        player.X += playerSpeed;
+                    }
+                    if (kb.IsKeyDown(Keys.Space) && bcd == 0)
+                    {
+                        bullet.Add(new Rectangle(player.X + playerw/2 - bulletsize/2, player.Y - 20, bulletsize, bulletsize));
+                        bcd += 5;
+                    }
+
+                    kb = oldKB;
+                    if (bcd > 0)
+                    { bcd--; }
+                    for (int x = 0; x < bullet.Count; x++)
+                    {
+                        int z = bullet[x].X;
+                        int y = bullet[x].Y;
+                        bullet[x] = new Rectangle(z, y - 20, bulletsize, bulletsize);
+                        if (bullet[x].Intersects(shield))
+                        {
+                            bullet.RemoveAt(x);
+                        }
+                    }
+
+                    break;
+                case gamestate.quit:
+                    backg = GO;
+                    break;
+            }
             base.Update(gameTime);
         }
 
@@ -84,7 +191,19 @@ namespace _1942
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+            spriteBatch.Begin();
+            spriteBatch.Draw(backg, back, Color.White);
+            spriteBatch.DrawString(titlef, tittle, tittleVector, Color.Green);
+            spriteBatch.DrawString(gui, livedis, liveVector, Color.White);
+            spriteBatch.DrawString(gui, scoredis, new Vector2(screenW / 2, 0), Color.White);
+            spriteBatch.Draw(playert, pow, Color.White);
+            spriteBatch.Draw(playert, player, Color.White);
+            spriteBatch.Draw(playert, lives, Color.White);
+            for(int x = 0; x < bullet.Count; x++)
+            {
+                spriteBatch.Draw(playert, bullet[x], Color.Yellow);
+            }
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
