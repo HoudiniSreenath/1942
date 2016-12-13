@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1942", "1942\_1942\_1942.csproj", "{C04F1C6C-DBE7-4219-9F4C-FBE59415AD7E}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "_1942Content", "1942\_1942Content\_1942Content.contentproj", "{A067FCB4-AF86-45D8-8195-7917606E1C21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C04F1C6C-DBE7-4219-9F4C-FBE59415AD7E}.Debug|x86.ActiveCfg = Debug|x86
+		{C04F1C6C-DBE7-4219-9F4C-FBE59415AD7E}.Debug|x86.Build.0 = Debug|x86
+		{C04F1C6C-DBE7-4219-9F4C-FBE59415AD7E}.Release|x86.ActiveCfg = Release|x86
+		{C04F1C6C-DBE7-4219-9F4C-FBE59415AD7E}.Release|x86.Build.0 = Release|x86
+		{A067FCB4-AF86-45D8-8195-7917606E1C21}.Debug|x86.ActiveCfg = Debug|x86
+		{A067FCB4-AF86-45D8-8195-7917606E1C21}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

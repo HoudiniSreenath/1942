@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>player.png</Source>
+      <Name>player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\player.xnb</Output>
+      <Time>2016-12-07T14:13:14.1588827-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Bitmap1.bmp</Source>
+      <Name>Bitmap1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\Bitmap1.xnb</Output>
+      <Time>2016-12-13T14:12:34.174165-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Game EndScreen.png</Source>
+      <Name>Game EndScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\Game EndScreen.xnb</Output>
+      <Time>2016-12-13T14:12:34.1891665-06:00</Time>
+    </Item>
+    <Item>
+      <Source>White Square.png</Source>
+      <Name>White Square</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\White Square.xnb</Output>
+      <Time>2016-12-13T14:12:34.2371713-06:00</Time>
+    </Item>
+    <Item>
+      <Source>title.spritefont</Source>
+      <Name>title</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\title.xnb</Output>
+      <Time>2016-12-07T13:40:30.5727882-06:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI.spritefont</Source>
+      <Name>GUI</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\GUI.xnb</Output>
+      <Time>2016-12-13T14:12:34.2001676-06:00</Time>
+    </Item>
+    <Item>
+      <Source>00.png</Source>
+      <Name>00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\00.xnb</Output>
+      <Time>2016-12-13T13:53:07.7952959-06:00</Time>
+    </Item>
+    <Item>
+      <Source>01.png</Source>
+      <Name>01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\01.xnb</Output>
+      <Time>2016-12-13T13:28:22.5751038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>02.png</Source>
+      <Name>02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\02.xnb</Output>
+      <Time>2016-12-13T13:28:22.5881038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>03.png</Source>
+      <Name>03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\03.xnb</Output>
+      <Time>2016-12-13T13:28:22.6011038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>04.png</Source>
+      <Name>04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\04.xnb</Output>
+      <Time>2016-12-13T13:28:22.6141038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>05.png</Source>
+      <Name>05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\05.xnb</Output>
+      <Time>2016-12-13T13:28:22.6271038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>06.png</Source>
+      <Name>06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\06.xnb</Output>
+      <Time>2016-12-13T13:28:22.6401038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>07.png</Source>
+      <Name>07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\07.xnb</Output>
+      <Time>2016-12-13T13:28:22.6521038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>08.png</Source>
+      <Name>08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\08.xnb</Output>
+      <Time>2016-12-13T13:28:22.6651038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>09.png</Source>
+      <Name>09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\09.xnb</Output>
+      <Time>2016-12-13T13:28:22.6791038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>10.png</Source>
+      <Name>10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\10.xnb</Output>
+      <Time>2016-12-13T13:28:22.6921038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>11.png</Source>
+      <Name>11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\11.xnb</Output>
+      <Time>2016-12-13T13:28:22.7051038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>12.png</Source>
+      <Name>12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\12.xnb</Output>
+      <Time>2016-12-13T13:28:22.7351038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>13.png</Source>
+      <Name>13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\13.xnb</Output>
+      <Time>2016-12-13T13:28:22.7481038-06:00</Time>
+    </Item>
+    <Item>
+      <Source>black.jpg</Source>
+      <Name>black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\black.xnb</Output>
+      <Time>2016-12-07T14:00:19.9651212-06:00</Time>
+    </Item>
+    <Item>
+      <Source>basic.spritefont</Source>
+      <Name>basic</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\basic.xnb</Output>
+      <Time>2016-12-07T13:46:13.6234847-06:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{A067FCB4-AF86-45D8-8195-7917606E1C21}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\175931\Desktop\New folder\1942\1942\_1942Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\175931\Desktop\New folder\1942\1942\_1942\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\175931\Desktop\New folder\1942\1942\_1942\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\175931\Desktop\New folder\1942\1942\_1942\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-11-04T08:30:24.4122989-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
